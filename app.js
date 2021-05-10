@@ -38,7 +38,8 @@ app.use(function (err, req, res, next) {
 // MongoDB Setup.
 mongoose.connect(process.env.MONGO_DB_URL, {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
+  useFindAndModify: false
 })
 
 // Database Setup.
