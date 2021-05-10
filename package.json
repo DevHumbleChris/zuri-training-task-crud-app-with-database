@@ -1,0 +1,31 @@
+{
+  "name": "zuri-training-task-crud-app-with-database",
+  "version": "1.0.0",
+  "description": "Zuri Training Task: Express CRUD App With Database (MongoDB)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevHumbleChris/zuri-training-task-crud-app-with-database.git"
+  },
+  "author": "Am.Chris_KE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevHumbleChris/zuri-training-task-crud-app-with-database/issues"
+  },
+  "homepage": "https://github.com/DevHumbleChris/zuri-training-task-crud-app-with-database#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
