@@ -27,7 +27,7 @@ module.exports = {
       })
 
       // Create New Person
-      const newPerson = new Person({
+      const newPerson = await new Person({
         name: req.body.name,
         email: req.body.email,
         country: req.body.country
